@@ -37,7 +37,7 @@ export class ExamplePage /* <-- Change name */ implements Page {
 }
 ```
 
-#### 2. Create `style.css` & `code.js
+#### 2. Create `style.css` & `code.js`
 Create the directory `/static/pages/<page_name>/` and add these files there.
 They will be automatically loaded.
 
@@ -57,11 +57,11 @@ export default class ExampleComponent /* <-- Change name */ implements Component
 }
 ```
 
-#### 2. Create a `style.css` in `/static/components/<component_name>/`
+#### 2. Create `style.css` in `/static/components/<component_name>/`
 ```css
-.components\.component_name /*query for children here*/ {
+.components\.component_name /* query for children here */ {
 	/* Put your css here */
 }
 ```
 
-#### 3. Create a `code.js` in `/static/components/<component_name>/`
+#### 3. Create `code.js` in `/static/components/<component_name>/`
